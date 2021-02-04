@@ -2,9 +2,15 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  padding: 0 40rpx;
-  margin-top: 200rpx;
+  padding: 0 70rpx;
+  margin-top: 150rpx;
   background: #fff;
+}
+
+.welcom{
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 50rpx;
 }
 
 .form-item {
@@ -60,7 +66,7 @@
   line-height: 96rpx;
   font-size: 30rpx;
   border-radius: 6rpx;
-  width: 90%;
+  width: 100%;
   color: #fff;
   right: 0;
   display: flex;
@@ -70,15 +76,16 @@
   bottom: 0;
   left: 0;
   padding: 0;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   text-align: center;
   /* padding-left: -5rpx; */
-  border-top-left-radius: 50rpx;
+  /* border-top-left-radius: 50rpx;
   border-bottom-left-radius: 50rpx;
   border-top-right-radius: 50rpx;
-  border-bottom-right-radius: 50rpx;
+  border-bottom-right-radius: 50rpx; */
   letter-spacing: 3rpx;
-  background-image: linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%);
+  /* background-image: linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%); */
+  background-color: #0FA86C;
 }
 
 .form-item-text {
@@ -89,13 +96,15 @@
 .form-item-text .register {
   display: block;
   height: 34rpx;
-  float: left;
+  float: right;
+  color: #0FA86C;
   font-size: 28rpx;
 }
 
 .form-item-text .reset {
   display: block;
   height: 34rpx;
-  float: right;
+  float: left;
+  color: #ccc;
   font-size: 28rpx;
 }

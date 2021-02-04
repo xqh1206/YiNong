@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="form-box">
+		<view class="tips">请输入验证码</view>
+        <view class="tips-phone">验证码已发送至：{{mobile}}</view>
+
+        <view class="form-item">
+            <input class="mobile" value="{{mobile}}" bindinput="bindMobileInput" placeholder="请输入验证码" />
+        </view>
+
+        <view class="tips">秒后可重新发送验证码</view>
+
+    	<button type="primary" class="checkphone-btn" bindtap="checkphone">确定</button>
+    </view>
+</view>

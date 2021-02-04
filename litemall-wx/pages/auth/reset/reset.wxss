@@ -2,9 +2,21 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  padding: 0 40rpx;
+  padding: 0 70rpx;
   margin-top: 96rpx;
   background: #fff;
+}
+
+.tips{
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+
+.tips-reset{
+  color: #B3B8C8;
+  font-size: 25rpx;
+  margin-bottom: 50rpx;
 }
 
 .form-item {
@@ -19,7 +31,7 @@
   top: 26rpx;
   left: 0;
   display: block;
-  width: 100%;
+  width: 80%;
   height: 44rpx;
   background: #fff;
   color: #333;
@@ -61,6 +73,6 @@
   color: #fff;
   font-size: 30rpx;
   width: 100%;
-  background: #b4282d;
-  border-radius: 6rpx;
+  background: #0FA86C;
+  border-radius: 20rpx;
 }

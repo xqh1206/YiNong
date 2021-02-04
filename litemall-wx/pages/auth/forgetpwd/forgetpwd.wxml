@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="form-box">
+		<view class="tips">忘记密码</view>
+        <view class="tips-phone">请输入手机号</view>
+
+        <view class="form-item">
+            <input class="mobile" value="{{mobile}}" bindinput="bindMobileInput" placeholder="请输入手机号" />
+        </view>
+
+    	<button type="primary" class="checkphone-btn" bindtap="checkphone">验证手机号</button>
+    </view>
+</view>

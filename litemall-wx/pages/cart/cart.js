@@ -49,7 +49,7 @@ Page({
   },
   goLogin() {
     wx.navigateTo({
-      url: "/pages/auth/login/login"
+      url: "/pages/auth/accountLogin/accountLogin"
     });
   },
   getCartList: function() {

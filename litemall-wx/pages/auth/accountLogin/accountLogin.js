@@ -78,7 +78,7 @@ Page({
     });
   },
   bindUsernameInput: function(e) {
-
+    console.log(e.detail.value)
     this.setData({
       username: e.detail.value
     });

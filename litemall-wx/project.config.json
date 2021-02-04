@@ -43,12 +43,6 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
     "plugin": {
       "list": []
     },
@@ -321,6 +315,24 @@
           "name": "售后详情",
           "pathName": "pages/ucenter/aftersaleDetail/aftersaleDetail",
           "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/ucenter/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "账号登录",
+          "pathName": "pages/auth/accountLogin/accountLogin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "忘记密码",
+          "pathName": "pages/auth/reset/reset",
+          "query": "",
           "scene": null
         }
       ]
