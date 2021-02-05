@@ -3,11 +3,13 @@
 		<view class="welcom">欢迎使用易农小程序</view>
 
     	<view class="form-item">
+			<view class="phone-before">+86</view>
     		<input class="username" value="{{username}}" bindinput="bindUsernameInput" placeholder="请输入手机号"/>
         	<van-icon name="close" wx:if="{{ username.length > 0 }}" id="clear-username" class="clear" catchtap="clearInput"/>
     	</view>
 
-    	<view class="form-item">
+    	<view class="form-item password-form-item">
+			<view class="password-before">密码</view>
     		<input class="password" value="{{password}}" password bindinput="bindPasswordInput" placeholder="请输入密码"/>
         	<van-icon class="clear" id="clear-password" wx:if="{{ password.length > 0 }}" name="close" catchtap="clearInput"/>      
     	</view>

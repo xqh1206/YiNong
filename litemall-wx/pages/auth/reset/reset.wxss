@@ -25,17 +25,31 @@
   height: 96rpx;
   border-bottom: 1px solid #d9d9d9;
 }
-
+.mobile-before{
+  width: 80rpx;
+  display: inline-block;
+  position: absolute;
+  top: 36rpx;
+  left: 0;
+  font-weight: 600;
+  font-size: 32rpx;
+}
 .form-item .mobile, .form-item .password, .form-item .code {
   position: absolute;
   top: 26rpx;
   left: 0;
-  display: block;
+  display: inline-block;
   width: 80%;
   height: 44rpx;
   background: #fff;
   color: #333;
   font-size: 30rpx;
+}
+.form-item .mobile{
+  position: absolute;
+  top: 26rpx;
+  left: 80rpx;
+  width: 75%;
 }
 
 .form-item-code {

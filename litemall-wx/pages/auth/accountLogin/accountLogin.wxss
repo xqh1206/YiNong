@@ -20,16 +20,44 @@
   border-bottom: 1px solid #d9d9d9;
 }
 
+.phone-before{
+  width: 80rpx;
+  display: inline-block;
+  position: absolute;
+  top: 36rpx;
+  left: 0;
+  font-weight: 600;
+  font-size: 32rpx;
+}
+.password-before{
+  font-weight: 600;
+  /* font-size: 32rpx; */
+  margin: 30rpx 0;
+}
 .form-item .username, .form-item .password, .form-item .code {
+  display: inline-block;
   position: absolute;
   top: 26rpx;
   left: 0;
-  display: block;
+  /* display: block; */
   width: 100%;
   height: 44rpx;
   background: #fff;
   color: #333;
   font-size: 30rpx;
+}
+.password-form-item{
+  height: 120rpx;
+}
+
+.form-item .username{
+  position: absolute;
+  top: 26rpx;
+  left: 80rpx;
+}
+.form-item .password{
+  position: absolute;
+  top: 50rpx;
 }
 
 .form-item-code {
@@ -58,6 +86,10 @@
   z-index: 2;
   display: block;
   background: #fff;
+}
+#clear-password{
+  position: absolute;
+  top: 60rpx;
 }
 
 .login-btn {
