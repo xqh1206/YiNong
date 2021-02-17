@@ -3,7 +3,7 @@
     <view class="address-item" bindtap="selectAddress" wx:if="{{checkedAddress.id > 0}}">
       <view class="l">
         <text class="name">{{checkedAddress.name}}</text>
-        <text class="default" wx:if="{{checkedAddress.isDefault}}">默认</text>
+        <!-- <text class="default" wx:if="{{checkedAddress.isDefault}}">默认</text> -->
       </view>
       <view class="m">
         <text class="mobile">{{checkedAddress.tel}}</text>
@@ -21,6 +21,32 @@
         <van-icon name="arrow" />      
       </view>
     </view>
+  </view>
+
+  <view class="goods-items">
+    <view class="item" wx:for="{{checkedGoodsList}}" wx:key="id">
+      <view class="img">
+        <image src="{{item.picUrl}}"></image>
+      </view>
+      <view class="info">
+        <view class="t">
+          <text class="name">{{item.goodsName}}</text>
+          <!-- <text class="number">x{{item.number}}</text> -->
+        </view>
+        <view class="m">{{item.specifications}}</view>
+        <view class="b">
+          ￥{{item.price}}
+          <text class="number">x{{item.number}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="service">
+      <text class="service-one">服务</text>
+      <text class="service-two">七天无理由退款</text>
+      <text class="service-three">￥{{goodsTotalPrice}}</text>
+    </view>
+
   </view>
 
   <view class="coupon-box">
@@ -43,19 +69,19 @@
     </view>
   </view>
 
-  <view class="message-box">
+  <!-- <view class="message-box">
     <input class="message-item" bindinput="bindMessageInput" placeholder="如需要，请输入留言" value="{{message}}" />
-  </view>
+  </view> -->
 
   <view class="order-box">
-    <view class="order-item">
+    <!-- <view class="order-item">
       <view class="l">
         <text class="name">商品合计</text>
       </view>
       <view class="r">
         <text class="txt">￥{{goodsTotalPrice}}元</text>
       </view>
-    </view>
+    </view> -->
     <view class="order-item">
       <view class="l">
         <text class="name">运费</text>
@@ -74,24 +100,10 @@
     </view>
   </view>
 
-  <view class="goods-items">
-    <view class="item" wx:for="{{checkedGoodsList}}" wx:key="id">
-      <view class="img">
-        <image src="{{item.picUrl}}"></image>
-      </view>
-      <view class="info">
-        <view class="t">
-          <text class="name">{{item.goodsName}}</text>
-          <text class="number">x{{item.number}}</text>
-        </view>
-        <view class="m">{{item.specifications}}</view>
-        <view class="b">￥{{item.price}}</view>
-      </view>
-    </view>
-  </view>
-
   <view class="order-total">
-    <view class="l">实付：￥{{actualPrice}}</view>
-    <view class="r" bindtap="submitOrder">去付款</view>
+    <view class="l">
+      <text class="l-black">共计：</text>￥{{actualPrice}}
+    </view>
+    <view class="r" bindtap="submitOrder">提交订单</view>
   </view>
 </view>

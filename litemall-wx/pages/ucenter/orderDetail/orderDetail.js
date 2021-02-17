@@ -2,12 +2,53 @@ var util = require('../../../utils/util.js');
 var api = require('../../../config/api.js');
 
 Page({
+  // data:{}
   data: {
     orderId: 0,
-    orderInfo: {},
-    orderGoods: [],
-    expressInfo: {},
+    orderInfo: {
+      addTime:'2021年2月13日20:23:21',
+      payTime:'2021年2月13日20:23:21',
+      orderSn:'0111111',
+      message:'不发中通',
+      actualPrice:1920,
+      orderStatusText:'买家已付款',
+      consignee:'张三',
+      mobile:'1888888888',
+      address:'黑龙江哈尔滨东农',
+      goodsPrice:199,
+      freightPrice:15,
+      couponPrice:8,
+      expNo:true,
+      expName:'韵达',
+      expNo:'00019040572062'
+    },
+    orderGoods: [
+      {
+        picUrl:'../../../static/images/corn.jpg',
+        goodsName:'玉米',
+        number:2,
+        price:680,
+        specifications:'好商品，好商品',
+      },
+      {
+        picUrl:'../../../static/images/banner1.png',
+        goodsName:'化肥',
+        number:1,
+        price:680,
+        specifications:'快买，快买，快买'
+      }
+    ],
+    // orderGoods:[],
+    expressInfo: {
+      Traces:[
+        {
+          AcceptStation:'AcceptStation',
+          AcceptTime:'AcceptTime'
+        }
+      ]
+    },
     flag: false,
+    // handleOption: {}
     handleOption: {}
   },
   onLoad: function(options) {

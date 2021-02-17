@@ -6,7 +6,27 @@ var app = getApp();
 
 Page({
   data: {
-    cartGoods: [],
+    cartGoods: [
+      {
+        checked:false,
+        picUrl:'../../static/images/corn.jpg',
+        goodsName:'玉米',
+        number:1,
+        specifications:'万盛68原装4500粒',
+        price:123,
+        productId:1
+      },
+      {
+        checked:false,
+        picUrl:'../../static/images/corn.jpg',
+        goodsName:'玉米',
+        number:1,
+        specifications:'万盛68散装一斤',
+        price:123,
+        productId:1
+      }
+    ],
+    // cartGoods:[],
     cartTotal: {
       "goodsCount": 0,
       "goodsAmount": 0.00,

@@ -4,7 +4,23 @@ var app = getApp();
 
 Page({
   data: {
-    addressList: [],
+    // addressList: [],
+    addressList: [
+      {
+        id:1,
+        name:'张三',
+        isDefault:true,
+        tel:18888888888,
+        addressDetail:'黑龙江省哈尔滨市东北农业大学'
+      },
+      {
+        id:2,
+        name:'张四',
+        isDefault:false,
+        tel:18888888888,
+        addressDetail:'黑龙江省哈尔滨市香坊区'
+      }
+    ],
     total: 0
   },
   onLoad: function(options) {

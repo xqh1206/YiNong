@@ -163,9 +163,10 @@ page {
 }
 
 .cart-view .item .t {
-  margin: 8rpx 0;
+  margin: 8rpx 0 16rpx 0;
   height: 28rpx;
-  font-size: 25rpx;
+  font-size: 26rpx;
+  font-weight: 500;
   color: #333;
   overflow: hidden;
 }
@@ -186,6 +187,7 @@ page {
 }
 
 .cart-view .item .attr {
+  display: inline-block;
   margin-bottom: 17rpx;
   height: 24rpx;
   line-height: 24rpx;
@@ -199,18 +201,20 @@ page {
   line-height: 28rpx;
   font-size: 25rpx;
   color: #333;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .cart-view .item .price {
   float: left;
+  color: red;
+  font-size: 27rpx;
 }
 
-.cart-view .item.edit .t {
+/* .cart-view .item.edit .t {
   display: none;
-}
+} */
 
-.cart-view .item.edit .attr {
+/* .cart-view .item.edit .attr {
   text-align: right;
   padding-right: 25rpx;
   background-size: 12rpx 20rpx;
@@ -224,24 +228,32 @@ page {
 
 .cart-view .item.edit .b {
   display: flex;
-  height: 52rpx;
-  overflow: hidden;
-}
+  height: 52rpx; */
+  /* overflow: hidden; */
+/* }
 
 .cart-view .item.edit .price {
   line-height: 52rpx;
   height: 52rpx;
   flex: 1;
-}
+} */
 
 .cart-view .item .selnum {
   display: none;
 }
 
-.cart-view .item.edit .selnum {
+/* .cart-view .item.edit .selnum {
   width: 235rpx;
   height: 52rpx;
   border: 1rpx solid #ccc;
+  display: flex;
+} */
+.cart-view .item .selnum {
+  width: 235rpx;
+  height: 52rpx;
+  border: 1rpx solid #ccc;
+  float: right;
+  margin-top: -20rpx;
   display: flex;
 }
 
@@ -335,8 +347,15 @@ page {
 
 .cart-bottom .van-checkbox {
   float: left;
-  margin: 33rpx 18rpx 33rpx 26rpx;
-    font-size: 29rpx;
+  margin: 30rpx 18rpx 33rpx 26rpx;
+  font-size: 27rpx;
+}
+.cart-bottom .van-checkbox .van-checkbox__icon-wrap{
+  margin-top: 10rpx;
+}
+.cart-bottom .van-checkbox .van-checkbox__label{
+  margin-left: 5rpx;
+  font-size: 27rpx;
 }
 
 .cart-bottom .van-checkbox .van-icon {
@@ -346,7 +365,7 @@ page {
 .cart-bottom .total {
   height: 34rpx;
   flex: 1;
-  margin: 33rpx 10rpx;
+  margin: 33rpx 90rpx;
   font-size: 29rpx;
 }
 
@@ -367,7 +386,8 @@ page {
   border-top-right-radius: 50rpx;
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
-  background-image: linear-gradient(to right, #9a9ba1 0%, #ae8b9c 100%);
+  /* background-image: linear-gradient(to right, #9a9ba1 0%, #ae8b9c 100%); */
+  background-color: #0FA86C;
 }
 
 .cart-bottom .checkout {
@@ -403,14 +423,17 @@ page {
   text-align: center;
   /* padding-left: 25rpx; */
   font-size: 25rpx;
-  color: #f4f4f4;
+  /* color: #f4f4f4; */
   border-top-left-radius: 50rpx;
   border-bottom-left-radius: 50rpx;
   border-top-right-radius: 50rpx;
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
   /* background-image: linear-gradient(to right, #ff7701 100%); */
-  background-image: linear-gradient(to right, #ab956d 0%, #ab956d 100%);
+  /* background-image: linear-gradient(to right, #ab956d 0%, #ab956d 100%); */
+  color: #666;
+  background-color: #fff;
+  border: 1px solid #666;
 }
 
 .action_btn_area .checkout {
@@ -429,7 +452,8 @@ page {
   border-top-right-radius: 50rpx;
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
-  background-image: linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%);
+  /* background-image: linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%); */
+  background-color: #0FA86C;
 }
 
 .action_btn_area .delete {
@@ -449,7 +473,8 @@ page {
   border-top-right-radius: 50rpx;
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
-  background-image: linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%);
+  /* background-image: linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%); */
+  background-color: #0FA86C;
 }
 
 .action_btn_area .sure {
@@ -462,15 +487,18 @@ page {
   margin-right: 10rpx;
   padding-left: -5rpx;
   font-size: 25rpx;
-  color: #f4f4f4;
+  /* color: #f4f4f4; */
   /* text-align: center; */
   border-top-left-radius: 50rpx;
   border-bottom-left-radius: 50rpx;
   border-top-right-radius: 50rpx;
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
-  background-image: linear-gradient(to right, #ab956d 0%, #ab956d 100%);
+  /* background-image: linear-gradient(to right, #ab956d 0%, #ab956d 100%); */
   /* background-image: linear-gradient(to right, #ff7701 0%, #fe4800 100%); */
+  color: #666;
+  background-color: #fff;
+  border: 1px solid #666;
 }
 
 .auth_btn {

@@ -3,7 +3,48 @@ var api = require('../../../config/api.js');
 
 Page({
   data: {
-    orderList: [],
+    // orderList: [],
+    orderList: [
+      {
+        id:1,
+        number:3,
+        // orderSn:'00001',
+        orderStatusText:'买家已付款',
+        goodsList:[
+          {
+            picUrl:'../../../static/images/corn.jpg',
+            goodsName:'玉米',
+            number:2,
+            price:680,
+            detail:'好商品，好商品'
+          },
+          {
+            picUrl:'../../../static/images/banner1.png',
+            goodsName:'化肥',
+            number:1,
+            price:680,
+            detail:'快买，快买，快买'
+          }
+        ],
+        actualPrice:1920
+      },
+      {
+        id:2,
+        number:20,
+        // orderSn:'00002',
+        orderStatusText:'卖家已发货',
+        goodsList:[
+          {
+            picUrl:'../../../static/images/corn.jpg',
+            goodsName:'玉米',
+            number:20,
+            price:680,
+            detail:'好商品，好商品'
+          }
+        ],
+        actualPrice:10819
+      }
+    ],
     showType: 0,
     page: 1,
     limit: 10,

@@ -36,6 +36,7 @@ page {
   height: 43rpx;
   line-height: 43rpx;
   font-size: 30rpx;
+  font-weight: 600;
   color: #333;
   margin-bottom: 5rpx;
 }
@@ -63,13 +64,17 @@ page {
   display: block;
   height: 29rpx;
   line-height: 29rpx;
+  margin-top: -2.25rpx;
   margin-bottom: 6.25rpx;
   font-size: 30rpx;
+  font-weight: 600;
   color: #333;
 }
 
 .address-box .address {
   display: block;
+  margin-top: 15rpx;
+  margin-left: -118rpx;
   height: 37.5rpx;
   line-height: 37.5rpx;
   font-size: 25rpx;
@@ -87,6 +92,22 @@ page {
 .address-box .r image {
   width: 52.078rpx;
   height: 52.078rpx;
+}
+
+.service{
+  padding: 20rpx 0;
+  padding-right: 31.25rpx;
+}
+.service-one,.service-two{
+  font-size: 25rpx;
+  color:#666;
+}
+.service-two{
+  margin-left: 30rpx;
+}
+.service-three{
+  float: right;
+  font-size: 27rpx;
 }
 
 .coupon-box {
@@ -203,12 +224,12 @@ page {
   overflow: hidden;
   background: #fff;
   padding-left: 31.25rpx;
-  margin-bottom: 120rpx;
+  margin-bottom: 20rpx;
 }
 
 .goods-items .item {
   height: 192rpx;
-  padding-right: 31.25rpx;
+  margin-right: 31.25rpx;
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
@@ -254,7 +275,7 @@ page {
   float: left;
 }
 
-.goods-items .t .number {
+.goods-items  .number {
   display: block;
   float: right;
   text-align: right;
@@ -264,7 +285,8 @@ page {
   height: 29rpx;
   overflow: hidden;
   line-height: 29rpx;
-  margin-bottom: 25rpx;
+  margin-top: 35rpx;
+  margin-bottom: 15rpx;
   font-size: 25rpx;
   color: #666;
 }
@@ -274,7 +296,7 @@ page {
   overflow: hidden;
   line-height: 41rpx;
   font-size: 30rpx;
-  color: #333;
+  color: #b4282d;
 }
 
 .order-total {
@@ -297,12 +319,15 @@ page {
   border-top: 1rpx solid rgba(0, 0, 0, 0.2);
   border-bottom: 1rpx solid rgba(0, 0, 0, 0.2);
 }
+.order-total .l .l-black{
+  color: black;
+}
 
 .order-total .r {
   width: 233rpx;
   height: 100rpx;
-  background: #b4282d;
-  border: 1px solid #b4282d;
+  background: #0FA86C;
+  border: 1px solid #0FA86C;
   line-height: 100rpx;
   text-align: center;
   color: #fff;

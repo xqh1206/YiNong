@@ -5,8 +5,35 @@ var app = getApp();
 
 Page({
   data: {
-    checkedGoodsList: [],
-    checkedAddress: {},
+    // checkedGoodsList: [],
+    checkedGoodsList: [
+      {
+        checked:false,
+        picUrl:'../../static/images/corn.jpg',
+        goodsName:'玉米',
+        number:1,
+        specifications:'万盛68原装4500粒',
+        price:123,
+        productId:1
+      },
+      {
+        checked:false,
+        picUrl:'../../static/images/corn.jpg',
+        goodsName:'玉米',
+        number:1,
+        specifications:'万盛68散装一斤',
+        price:123,
+        productId:1
+      }
+    ],
+    // checkedAddress: {},
+    checkedAddress: {
+      id:1,
+      name:'张三',
+      isDefault:true,
+      tel:18888888888,
+      addressDetail:'黑龙江省哈尔滨市东北农业大学'
+    },
     availableCouponLength: 0, // 可用的优惠券数量
     goodsTotalPrice: 0.00, //商品总价
     freightPrice: 0.00, //快递费

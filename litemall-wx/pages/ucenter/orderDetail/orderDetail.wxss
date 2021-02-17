@@ -3,12 +3,64 @@ page {
   width: 100%;
   background: #f4f4f4;
 }
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background: #fff; */
+}
+.status {
+  padding: 15rpx 31.25rpx;
+  font-size: 30rpx;
+  color: #b4282d;
+  border-bottom: 1px solid #f4f4f4;
+  background: #fff;
+}
+.address {
+  padding-top: 25rpx;
+  padding-bottom: 27rpx;
+  padding-left: 31.25rpx;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  background: #fff;
+}
+
+.address .t {
+  height: 35rpx;
+  line-height: 35rpx;
+  margin-bottom: 7.5rpx;
+}
+
+.address .name {
+  display: inline-block;
+  height: 35rpx;
+  /* width: 140rpx; */
+  padding-right: 40rpx;
+  line-height: 35rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.address .mobile {
+  display: inline-block;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.address .b {
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 26rpx;
+  margin-top: 27rpx;
+}
 
 .order-info {
-  padding-top: 25rpx;
+  margin-top: 25rpx;
+  padding: 40rpx 0;
   background: #fff;
-  height: auto;
-  overflow: hidden;
+  flex: 1;
 }
 
 .item {
@@ -16,7 +68,7 @@ page {
   height: 42.5rpx;
   padding-bottom: 12.5rpx;
   line-height: 30rpx;
-  font-size: 30rpx;
+  font-size:28rpx;
   color: #666;
 }
 
@@ -65,6 +117,10 @@ page {
   margin-top: 20rpx;
   background: #fff;
 }
+.order-goods .goods{
+  padding-bottom: 60rpx;
+  border-bottom: 2px solid #f4f4f4;
+}
 
 .order-goods .h {
   height: 93.75rpx;
@@ -80,24 +136,27 @@ page {
   color: #333;
 }
 
-.order-goods .h .status {
+/* .order-goods .h .status {
   float: right;
   font-size: 30rpx;
   color: #b4282d;
-}
+} */
 
 .order-goods .item {
   display: flex;
   align-items: center;
   height: 192rpx;
-  margin-left: 31.25rpx;
+  /* margin-left: 31.25rpx; */
   padding-right: 31.25rpx;
-  border-bottom: 1px solid #f4f4f4;
+  border-bottom: 1px solid  #f4f4f4;
+}
+.order-goods .item:last-child {
+  border-bottom: 2px solid  #f4f4f4;
 }
 
-.order-goods .item:last-child {
+/* .order-goods .item:last-child {
   border-bottom: none;
-}
+} */
 
 .order-goods .item .img {
   height: 145.83rpx;
@@ -129,24 +188,26 @@ page {
   height: 33rpx;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+  font-size: 28rpx;
+  font-weight: 500;
 }
 
-.order-goods .item .t .number {
+/* .order-goods .item .t .number {
   display: block;
   float: right;
   height: 33rpx;
   text-align: right;
   line-height: 33rpx;
-  color: #333;
+  color: #666;
   font-size: 30rpx;
-}
+} */
 
 .order-goods .item .attr {
+  margin-top: 35rpx;
   height: 29rpx;
   line-height: 29rpx;
   color: #666;
-  margin-bottom: 25rpx;
+  margin-bottom: 15rpx;
   font-size: 25rpx;
 }
 
@@ -156,6 +217,15 @@ page {
   height: 30rpx;
   line-height: 30rpx;
   color: #333;
+  font-size: 28rpx;
+}
+.order-goods .item .number {
+  display: block;
+  float: right;
+  height: 33rpx;
+  text-align: right;
+  line-height: 33rpx;
+  color: #666;
   font-size: 30rpx;
 }
 
@@ -183,7 +253,7 @@ page {
   background: #fff;
 }
 
-.order-bottom .address {
+/* .order-bottom .address {
   height: 128rpx;
   padding-top: 25rpx;
   border-top: 1px solid #f4f4f4;
@@ -215,10 +285,10 @@ page {
   height: 35rpx;
   line-height: 35rpx;
   font-size: 30rpx;
-}
+} */
 
 .order-bottom .total {
-  height: 130rpx;
+  /* height: 130rpx; */
   padding-top: 20rpx;
   border-bottom: 1px solid #f4f4f4;
 }
@@ -226,8 +296,29 @@ page {
 .order-bottom .total .t {
   height: 30rpx;
   line-height: 30rpx;
-  margin-bottom: 7.5rpx;
+  margin-bottom: 21rpx;
   display: flex;
+}
+.order-bottom .total .t-special .label {
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-bottom: 21rpx;
+  display: flex;
+  font-size: 32rpx;
+}
+.order-bottom .total .t-special .txt {
+  flex: 1;
+  text-align: right;
+  display: inline-block;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 32rpx;
+  padding-right: 31.25rpx;
+  color: #b4282d;
+}
+.order-bottom .total .t-special{
+  overflow: hidden;
+  margin-top: 25rpx;
 }
 
 .order-bottom .total .label {
@@ -235,15 +326,17 @@ page {
   display: inline-block;
   height: 35rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 
 .order-bottom .total .txt {
   flex: 1;
+  text-align: right;
   display: inline-block;
   height: 35rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+  font-size: 28rpx;
+  padding-right: 31.25rpx;
 }
 
 .order-bottom .pay-fee {
