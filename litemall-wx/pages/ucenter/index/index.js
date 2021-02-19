@@ -55,7 +55,7 @@ Page({
     if (!this.data.hasLogin) {
       wx.navigateTo({
         // url: "/pages/auth/login/login"
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     }
   },
@@ -71,7 +71,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     }
   },
@@ -92,7 +92,7 @@ Page({
       })
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -103,7 +103,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -114,7 +114,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -125,7 +125,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -136,7 +136,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -147,7 +147,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -158,7 +158,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
@@ -197,7 +197,7 @@ Page({
       });
     } else {
       wx.navigateTo({
-        url: "/pages/auth/accountLogin/accountLogin"
+        url: "/pages/auth/login/login"
       });
     };
   },
