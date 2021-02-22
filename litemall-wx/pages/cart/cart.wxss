@@ -518,3 +518,7 @@ page {
   letter-spacing: 3rpx;
   background-image: linear-gradient(to right, #8baaaa 0%, #9a9ba1 100%);
 }
+.van-checkbox__icon--checked{
+  background-color:  #0FA86C!important;
+  border-color: #0FA86C!important;
+}

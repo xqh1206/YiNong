@@ -186,3 +186,34 @@ page {
   color: #fff;
   background: #b4282d;
 }
+
+.order-bottom{
+  width: 100%;
+  padding: 15rpx 0;
+  position: relative;
+  height: 100rpx;
+}
+.order-button-left{
+  font-size: 27rpx;
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #666;
+  border: 1rpx solid #666;
+  border-radius: 40rpx;
+  text-align: center;
+  position: absolute;
+  right: 205rpx;
+}
+.order-button-right{
+  font-size: 27rpx;
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #0FA86C;
+  border: 1rpx solid #0FA86C;
+  border-radius: 40rpx;
+  text-align: center;
+  position: absolute;
+  right: 31.25rpx;
+}

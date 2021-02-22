@@ -333,3 +333,33 @@ page {
   color: #fff;
   font-size: 30rpx;
 }
+
+.payway{
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  padding: 20rpx 31.25rpx;
+}
+.payway-choose{
+  margin-top: 20rpx;
+  font-size: 32rpx;
+}
+.van-checkbox{
+  margin-top: 15rpx;
+  position: relative;
+}
+.van-checkbox__icon--checked{
+  background-color:  #0FA86C!important;
+  border-color: #0FA86C!important;
+}
+.van-icon {
+  color: #fff;
+}
+.van-checkbox__icon{
+  position: absolute;
+  top: 10rpx;
+}
+.van-checkbox__label{
+  margin-left: 140rpx!important;
+  color: #666!important;
+}
+

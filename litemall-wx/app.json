@@ -55,7 +55,7 @@
   "tabBar": {
     "backgroundColor": "#fafafa",
     "borderStyle": "white",
-    "selectedColor": "#AB956D",
+    "selectedColor": "#0FA86C",
     "color": "#666",
     "list": [
       {
@@ -78,7 +78,7 @@
       },
       {
         "pagePath": "pages/ucenter/index/index",
-        "iconPath": "static/images/my.png",
+        "iconPath": "static/images/my1.png",
         "selectedIconPath": "static/images/my@selected.png",
         "text": "个人"
       }

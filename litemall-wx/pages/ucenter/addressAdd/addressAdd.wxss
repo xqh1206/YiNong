@@ -187,3 +187,8 @@ page {
   left: 0;
   z-index: 8;
 }
+
+.van-checkbox__icon--checked{
+  background-color:  #0FA86C!important;
+  border-color: #0FA86C!important;
+}

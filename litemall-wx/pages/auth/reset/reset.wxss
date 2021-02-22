@@ -87,6 +87,6 @@
   color: #fff;
   font-size: 30rpx;
   width: 100%;
-  background: #0FA86C;
+  background-color: #0FA86C!important;
   border-radius: 20rpx;
 }

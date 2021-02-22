@@ -49,6 +49,23 @@
 
   </view>
 
+  <view class="payway">
+    <view>付款方式</view>
+    <view class="payway-choose">
+      <ul>
+        <li class="pay-list">
+          <van-checkbox value="{{ wxpay }}" icon-size="35rpx" bind:change="bindIswxpay">微信支付</van-checkbox>
+        </li>
+        <li class="pay-list">
+          <van-checkbox value="{{ market }}" icon-size="35rpx" bind:change="bindIsmarket">店内刷卡</van-checkbox>
+        </li>
+        <li class="pay-list">
+          <van-checkbox value="{{ instalment }}" icon-size="35rpx" bind:change="bindIsinstalment">分期</van-checkbox>
+        </li>
+      </ul>
+    </view>
+  </view>
+
   <view class="coupon-box">
     <view class="coupon-item" bindtap="selectCoupon">
       <view class="l" wx:if="{{couponId == 0}}">

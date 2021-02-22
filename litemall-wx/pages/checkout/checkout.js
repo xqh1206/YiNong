@@ -5,6 +5,9 @@ var app = getApp();
 
 Page({
   data: {
+    wxpay:true,
+    market:false,
+    instalment:false,
     // checkedGoodsList: [],
     checkedGoodsList: [
       {
@@ -229,5 +232,45 @@ Page({
         util.showErrorToast(res.errmsg);
       }
     });
+  },
+
+  bindIswxpay:function(){
+    if(!this.data.wxpay){
+      this.setData({
+        wxpay: true,
+        market: false,
+        instalment:false
+      });
+    }else{
+      this.setData({
+        wxpay: false
+      });
+    }
+  },
+  bindIsmarket:function(){
+    if(!this.data.market){
+      this.setData({
+        wxpay: false,
+        market: true,
+        instalment:false
+      });
+    }else{
+      this.setData({
+        market: false
+      });
+    }
+  },
+  bindIsinstalment:function(){
+    if(!this.data.instalment){
+      this.setData({
+        wxpay: false,
+        market: false,
+        instalment:true
+      });
+    }else{
+      this.setData({
+        instalment: false
+      });
+    }
   }
 });
