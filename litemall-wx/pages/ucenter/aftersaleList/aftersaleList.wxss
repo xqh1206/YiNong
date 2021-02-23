@@ -29,8 +29,8 @@ page {
 }
 
 .aftersales-switch .item.active .txt {
-  color: #ab956d;
-  border-bottom: 4rpx solid #ab956d;
+  color: #0FA86C;
+  border-bottom: 4rpx solid #0FA86C;
 }
 
 .no-aftersale {

@@ -40,8 +40,8 @@ page {
 }
 
 .container .h .item.active .txt {
-  color: #ab2b2b;
-  border-bottom: 4rpx solid #ab2b2b;
+  color: #0FA86C;
+  border-bottom: 4rpx solid #0FA86C;
 }
 
 .container .b {
@@ -95,7 +95,7 @@ page {
   height: 70rpx;
   border: none;
   width: 168rpx;
-  background: #b4282d;
+  background: #0FA86C;
   border-radius: 0;
   line-height: 70rpx;
   color: #fff;

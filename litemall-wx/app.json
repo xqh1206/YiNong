@@ -45,10 +45,10 @@
     "pages/auth/getcode/getcode"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarBackgroundColor": "#0FA86C",
     "navigationBarTitleText": "litemall小程序商城",
     "enablePullDownRefresh": false,
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "backgroundColor": "#FFFFFF",
     "backgroundTextStyle": "dark"
   },
