@@ -533,3 +533,16 @@
   padding-left: 10rpx;
   font-size: 30rpx;
 }
+
+.i image{width: 150rpx;height: 150rpx;border-radius: 50%;}
+.i{padding: 15rpx;}
+.e{display: flex; background: #fff;padding: 20rpx ;}
+.a{text-align: center;}
+.b1{border: #33c72e 5rpx solid}
+.a1{display: flex;background: #fff;}
+.a1 image{width: 350rpx;height: 350rpx;padding: 30rpx ;}
+.a2{border: #e2e2e2 5rpx solid;padding: 0rpx ;}
+.a3{color: red;}
+.a4{font-size: smaller;color: rgb(114, 119, 106);}
+.a5{font-size: x-large;text-align: center;}
+.a6{background: #fff;}
