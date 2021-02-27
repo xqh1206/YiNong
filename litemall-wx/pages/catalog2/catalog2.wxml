@@ -1,0 +1,29 @@
+<view class="goods">
+  <scroll-view class="menu-wrapper" scroll-y scroll-into-view="{{toView}}">
+    <view wx:for="{{goods}}" wx:for-item="item" wx:for-index="idx" bindtap="scrollToMenu" data-current="{{idx}}"
+      id="menu-{{idx}}" class="li {{currentIndex==idx?'active':''}}">
+      {{item.name}}
+    </view>
+  </scroll-view>
+  <view class="foods-wrapper">
+    <scroll-view style="height:100%;width:100%;" scroll-y bindscroll="scrollFoods" scroll-top="{{scrollTop}}">
+      <view wx:for="{{goods}}" wx:for-item="item" class="food-list-hook" url="../detail/detail">
+        <text class="cate">{{item.name}}</text>
+        <view class="food-item" wx:for="{{item.foods}}" wx:for-item="itemFoods">
+          <view class="icon" style="background-image:url({{itemFoods.icon}})"></view>
+          <view class="content">
+            <view class="title">{{itemFoods.name}}</view>
+            <view class="desc">{{itemFoods.info}}</view>
+            <view class="desc">特价{{itemFoods.sellCount}}<text>24H发货{{itemFoods.rating}}</text></view>
+            <view class="price">
+              ¥{{itemFoods.price}}<view class="price_add"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="foods-wrapper-title">
+      {{goods[currentIndex].name}}
+    </view>
+  </view>
+</view>
