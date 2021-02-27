@@ -42,6 +42,7 @@
     "pages/ucenter/aftersaleList/aftersaleList",
     "pages/ucenter/aftersaleDetail/aftersaleDetail",
     "pages/auth/forgetpwd/forgetpwd",
+    "pages/catalog2/catalog2",
     "pages/auth/getcode/getcode"
   ],
   "window": {
