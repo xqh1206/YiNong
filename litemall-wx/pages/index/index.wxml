@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-<view class="search">
+  <view class="search">
     <navigator url="/pages/search/search" class="input">
-      <van-icon name="search"/>
+      <van-icon name="search" />
       <text class="txt">商品搜索, 共 {{goodsCount}} 款好物 </text>
     </navigator>
   </view>
@@ -28,6 +28,92 @@
       </block>
     </swiper-item>
   </swiper>
+
+  <navigator class="e">
+    <navigator url="" class="i">
+      <view url="">
+        <image class="b1" src="../../static/images/A.jpg"></image>
+        <view class="a">种子</view>
+      </view>
+    </navigator>
+<navigator></navigator>
+    <navigator url="" class="i">
+      <view url="">
+        <image class="b1" src="/static/images/C.jpg"></image>
+        <view class="a">化肥</view>
+      </view>
+    </navigator>
+
+    <navigator url="" class="i">
+      <view url="">
+        <image class="b1" src="/static/images/B.jpg"></image>
+        <view class="a"> 农药</view>
+      </view>
+    </navigator>
+
+    <navigator url="" class="i">
+      <view url="">
+        <image class="b1" src="/static/images/D.jpeg"></image>
+        <view class="a">农机具</view>
+      </view>
+    </navigator>
+  </navigator>
+  <navigator>
+    <view></view>
+  </navigator>
+
+<navigator class="a6">
+  <view class="a5">──臻选·优质产品──
+</view>
+</navigator>
+  <navigator class="a1">
+    <navigator url="" class="a2">
+      <view url="">
+        <image class="" src="/static/images/2.jpg"></image>
+        <view class="">雅苒翠康冲施肥</view>
+        <view  class="a4">
+          英国进口草莓黄瓜西瓜水溶肥料
+        </view>
+        <view class="a3">￥48</view>
+      </view>
+    </navigator>
+    <navigator url="" class="a2">
+      <view url="">
+        <image class="" src="/static/images/3.jpg"></image>
+        <view class="">进口磷酸二氢钾速溶肥
+        </view>
+        <view  class="a4">磷钾肥料20kg包邮</view>
+        <view class="a3">￥400</view>
+      </view>
+    </navigator>
+  </navigator>
+  <navigator class="a1">
+    <navigator url="" class="a2">
+      <view url="">
+        <image class="" src="/static/images/4.jpg"></image>
+        <view class="">金帆达草甘膦757
+        </view>
+        <view  class="a4">除草剂农药农资</view>
+        <view class="a3">￥78-249.6</view>
+      </view>
+    </navigator>
+    <navigator url="" class="a2">
+      <view url="">
+        <image class="" src="/static/images/5.jpg"></image>
+        <view class="">明德立达23%高效
+
+
+        </view>
+        <view  class="a4">杀虫剂杀虫剂农药</view>
+        <view class="a3">￥23</view>
+      </view>
+    </navigator>
+  </navigator>
+
+
+
+
+
   <view class="m-menu">
     <navigator class="item" url="/pages/category/category?id={{item.id}}" wx:for="{{channel}}" wx:key="id">
       <image src="{{item.iconUrl}}" background-size="cover"></image>
@@ -46,7 +132,8 @@
       </view>
     </view>
     <view wx:if="{{coupon.length>0}}" class="b">
-      <view class="item" wx:for="{{coupon}}" wx:for-index="index" wx:for-item="item" wx:key="id" bindtap="getCoupon" data-index="{{item.id}}">
+      <view class="item" wx:for="{{coupon}}" wx:for-index="index" wx:for-item="item" wx:key="id" bindtap="getCoupon"
+        data-index="{{item.id}}">
         <view class="tag">{{item.tag}}</view>
         <view class="content">
           <view class="left">
@@ -102,7 +189,7 @@
   <view class="a-section a-brand">
     <view class="h">
       <navigator url="../brand/brand">
-        <text class="txt">品牌制造商直供</text>
+        <!-- <text class="txt">品牌制造商直供</text> -->
       </navigator>
     </view>
     <view class="b">
