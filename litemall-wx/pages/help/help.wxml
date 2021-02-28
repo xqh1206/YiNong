@@ -1,4 +1,4 @@
-<view class="container">
+<!-- <view class="container">
 
   <view class="common-problem">
     <view class="item" wx:for="{{issueList}}" wx:key="id">
@@ -17,4 +17,9 @@
     <view class="next {{ (count / limit) < page ? 'disabled' : ''}}" bindtap="nextPage">下一页</view>
   </view>
 
-</view>
+</view> -->
+<!--pages/help/help.wxml-->
+<text>\n1.“我是农户”用于农户进入选购农资产品使用\n
+2.“我是销售”用于注册过农资商店的销售人员向农户销售农资产品使用\n
+3.“我是经销商”用于农资产品经销商出售农资产品、管理销售人员使用\n
+</text>
