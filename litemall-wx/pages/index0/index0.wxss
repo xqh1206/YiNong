@@ -1,0 +1,13 @@
+/* pages/index.wxss */
+.yi image{width: 180rpx;height: 150rpx;}
+.ti {font-weight: 600;font-size: x-large;}
+.i image{width: 370rpx;height: 400rpx;}
+.e{display: flex;}
+.a{width: 740rpx;height: 350rpx;}
+.help{color: rgb(65, 82, 180);display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}

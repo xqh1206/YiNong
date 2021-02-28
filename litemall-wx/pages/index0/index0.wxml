@@ -1,0 +1,33 @@
+<!--pages/index.wxml-->
+<text>\n</text>
+<navigator class="yi" url="">
+  <image src="/static/images/8.png">
+  </image>
+</navigator>
+<navigator class="yi" url=""></navigator>
+<navigator>
+  <view><text class="ti" decode="{{true}}">
+      &nbsp;&nbsp;&nbsp;欢迎使用易农小程序
+    </text></view>
+  <text>\n</text>
+</navigator>
+<navigator class="e">
+  <navigator url="/pages/index/index" class="i">
+    <view url="">
+      <image src="/static/images/9.png">
+      </image>
+    </view>
+  </navigator>
+  <navigator url="" class="i">
+    <view url="">
+      <image src="/static/images/10.png"></image>
+    </view>
+  </navigator>
+</navigator>
+<navigator>
+  <image class="a" src="/static/images/11.png"></image>
+</navigator>
+
+<view>
+  <navigator class="help" url="/pages/help/help">查看帮助</navigator>
+</view>
