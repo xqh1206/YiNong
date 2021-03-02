@@ -62,35 +62,124 @@ Page({
         "type": 2,
         "foods": [
           {
-            "name": "万盛68",
-            "price": "13.23-75",
+            "name": "化肥",
+            "price": "48",
             
-            "info": "高产大田玉米种籽/抗旱",
+            "info": "英国进口草莓黄瓜西瓜水溶肥料",
       
-            "icon": "/static/images/1.jpg",
+            "icon": "/static/images/2.jpg",
           },
           {
-            "name": "万盛68",
-            "price": "13.23-75",
+            "name": "化肥",
+            "price": "48",
             
-            "info": "高产大田玉米种籽/抗旱",
-           
-            "icon": "/static/images/1.jpg",
-          }
+            "info": "英国进口草莓黄瓜西瓜水溶肥料",
+      
+            "icon": "/static/images/2.jpg",
+          },
+          {
+            "name": "化肥",
+            "price": "48",
+            
+            "info": "英国进口草莓黄瓜西瓜水溶肥料",
+      
+            "icon": "/static/images/2.jpg",
+          },
+          {
+            "name": "化肥",
+            "price": "48",
+            
+            "info": "英国进口草莓黄瓜西瓜水溶肥料",
+      
+            "icon": "/static/images/2.jpg",
+          },
          
         ]
       },
       {
         "name": "农药",
         "type": 3,
-        "foods": [
+        "foods": [{
+          "name": "农药",
+          "price": "23",           
+          "info": "杀虫剂杀虫剂农药",
+          "icon": "/static/images/3.jpg",
+          "url":"/pages/detail/detail"
+        },
+        {
+          "name": "农药",
+          "price": "23",           
+          "info": "杀虫剂杀虫剂农药",
+          "icon": "/static/images/3.jpg",
+          "url":"/pages/detail/detail"
+        },
+        {
+          "name": "农药",
+          "price": "23",           
+          "info": "杀虫剂杀虫剂农药",
+          "icon": "/static/images/3.jpg",
+          "url":"/pages/detail/detail"
+        },
+        {
+          "name": "农药",
+          "price": "23",           
+          "info": "杀虫剂杀虫剂农药",
+          "icon": "/static/images/3.jpg",
+          "url":"/pages/detail/detail"
+        },
+        {
+          "name": "农药",
+          "price": "23",           
+          "info": "杀虫剂杀虫剂农药",
+          "icon": "/static/images/3.jpg",
+          "url":"/pages/detail/detail"
+        },
          
         ]
       },
       {
         "name": "农用具",
         "type": 4,
-        "foods": [
+        "foods": [{
+          "name": "万盛68",
+          "price": "13.23-75",           
+          "info": "高产大田玉米种籽/抗旱",
+          "icon": "/static/images/1.jpg",
+          "url":"/pages/detail/detail"
+        },
+        {
+          "name": "高龙L2",
+          "price": "15.23-90",
+          
+          "info": "高产大田玉米种籽/抗旱",
+         
+          "icon": "/static/images/1.jpg",
+        },
+        {
+          "name": "万盛68",
+          "price": "13.23-75",
+          
+          "info": "高产大田玉米种籽/抗旱",
+         
+          "icon": "/static/images/1.jpg",
+        },
+        {
+          "name": "万盛68",
+          "price": "13.23-75",
+          
+          "info": "高产大田玉米种籽/抗旱",
+         
+          "icon": "/static/images/1.jpg",
+        },
+        {
+          "name": "万盛68",
+          "price": "13.23-75",
+          
+          "info": "高产大田玉米种籽/抗旱",
+         
+          "icon": "/static/images/1.jpg",
+        },
+       
          
         ]
       },
@@ -155,11 +244,5 @@ Page({
         foodListHeights: _foodListHeights
       });
     }) 
-  },
-   //点击跳转到商品详情页面
-   godetail:function(){
-    wx.navigateTo({
-      url: '/pages/detail/detail'
-    });
   }
 })
