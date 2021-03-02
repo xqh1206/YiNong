@@ -130,7 +130,7 @@ ul{
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background:#fed360;
+  /* background:#fed360; */
   right:0px;
   position: relative;
   top:2px;
@@ -139,9 +139,9 @@ ul{
 .food-item .content .price .price_add:after{
   position: absolute;
   content:' ';
-  background:#000;
+  /* background:#000; */
   float:left;
-  border-radius:1px;
+  border-radius:0px;
 }
 .food-item .content .price .price_add:before{
   width:12px;
@@ -155,3 +155,6 @@ ul{
   left:10px;
   top:5px;
 }
+.b2{width: 27px;
+height: 22px;
+float:right;}
