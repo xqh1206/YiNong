@@ -5,7 +5,7 @@ page {
 }
 /* 直接设置swiper属性 */
 swiper {
-  height: 500rpx;
+  height: 600rpx;
 }
 swiper-item image {
   width: 100%;
@@ -57,11 +57,11 @@ swiper-item image {
   width: 100%;
   height: 100rpx;
 }
-.button-green {
-  background-color: #4caf50; /* Green */
+.button-orange {
+  background-color: #F08A1C; /* 橘色 */
 }
-.button-red {
-  background-color: #f44336; /* 红色 */
+.button-green {
+  background-color: #0FA86C; /* 绿色 */
 }
 .image_detail {
   width: 100%;
