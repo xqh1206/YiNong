@@ -36,7 +36,7 @@
         <view class="a">种子</view>
       </view>
     </navigator>
-<navigator></navigator>
+    <navigator></navigator>
     <navigator url="" class="i">
       <view url="">
         <image class="b1" src="/static/images/C.jpg"></image>
@@ -61,16 +61,23 @@
   <navigator>
     <view></view>
   </navigator>
+  
+  <navigator class="a6">
+    <image class="a5" src="/static/images/a.png"></image>
+  </navigator>
+  <navigator class="ab">
+    <view ><image class="ac" src="/static/images/1.jpg"></image></view>
+<text class="ad" decode="{{true}}">\n&nbsp;&nbsp;万盛68</text>
+<text class="ae" decode="{{true}}">\n \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高产大田玉米种籽/抗旱\n</text>
+<text class="af">\n￥13.23-75</text>
 
-<navigator class="a6">
-  <image class="a5" src="/static/images/a.png"></image>
-</navigator>
+  </navigator>
   <navigator class="a1">
     <navigator url="" class="a2">
       <view url="">
         <image class="" src="/static/images/2.jpg"></image>
         <view class="">雅苒翠康冲施肥</view>
-        <view  class="a4">
+        <view class="a4">
           英国进口草莓黄瓜西瓜水溶肥料
         </view>
         <view class="a3">￥48</view>
@@ -81,7 +88,7 @@
         <image class="" src="/static/images/3.jpg"></image>
         <view class="">进口磷酸二氢钾速溶肥
         </view>
-        <view  class="a4">磷钾肥料20kg包邮</view>
+        <view class="a4">磷钾肥料20kg包邮</view>
         <view class="a3">￥400</view>
       </view>
     </navigator>
@@ -92,7 +99,7 @@
         <image class="" src="/static/images/4.jpg"></image>
         <view class="">金帆达草甘膦757
         </view>
-        <view  class="a4">除草剂农药农资</view>
+        <view class="a4">除草剂农药农资</view>
         <view class="a3">￥78-249.6</view>
       </view>
     </navigator>
@@ -103,7 +110,7 @@
 
 
         </view>
-        <view  class="a4">杀虫剂杀虫剂农药</view>
+        <view class="a4">杀虫剂杀虫剂农药</view>
         <view class="a3">￥23</view>
       </view>
     </navigator>
