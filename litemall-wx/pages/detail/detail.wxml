@@ -25,10 +25,10 @@
   <view class="temp"></view>
 </scroll-view>
 <!-- 底部悬浮栏 -->
-<view class="detail-nav">
-  <image bindtap="toCar" src="/static/images/cart.png" />
+<view class="detail-nav" >
+  <image bindtap="addCar" src="/static/images/cart.png" />
   <view class="line_nav"></view>
   <image bindtap="addLike" src="/static/images/customer.png" />
-  <button class="button-green" bindtap="addCar" formType="submit">加入购物车</button>
-  <button class="button-red" bindtap="immeBuy" formType="submit">立即购买</button>
+  <button class="button-orange" bindtap="addCar" formType="submit">加入购物车</button>
+  <button class="button-green" bindtap="immeBuy" formType="submit">立即购买</button>
 </view>

@@ -35,7 +35,7 @@ Page({
     });
   },
   // 跳到购物车
-  toCar() {
+  addCar() {
     wx.switchTab({
       url: '/pages/cart/cart'
     })
