@@ -507,13 +507,14 @@
   height: 88rpx;
   width: 100%;
   padding: 0 30rpx;
-  background: #fff;
+  background:#0FA85C;
   display: flex;
   align-items: center;
 }
 
 .search .van-icon-search {
   line-height: 59rpx;
+
 }
 
 .search .input {
@@ -544,5 +545,5 @@
 .a2{border: #e2e2e2 5rpx solid;padding: 0rpx ;}
 .a3{color: red;}
 .a4{font-size: smaller;color: rgb(114, 119, 106);}
-.a5{font-size: x-large;text-align: center;}
+.a5{height :130rpx;}
 .a6{background: #fff;}
