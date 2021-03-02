@@ -14,7 +14,7 @@ page {
   width: 750rpx;
   height: 91rpx;
   display: flex;
-  background: #fff;
+  background: #0FA85C;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding: 0 31.25rpx;
   font-size: 29rpx;
@@ -71,6 +71,7 @@ page {
   height: 43rpx;
   line-height: 43rpx;
   float: right;
+  color: #fff;
 }
 
 .no-search {
@@ -316,3 +317,4 @@ page {
   text-align: center;
   color: #999;
 }
+
