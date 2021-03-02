@@ -27,11 +27,11 @@ Page({
 
     //获取用户的登录信息
     if (app.globalData.hasLogin) {
-      let userInfo = wx.getStorageSync('userInfo');
+      let userInfo = wx.getStorageSync('userinfo');
       this.setData({
         userInfo: userInfo,
         hasLogin: true
-      });
+      }); 
 
       let that = this;
       util.request(api.UserIndex).then(function(res) {
@@ -43,7 +43,15 @@ Page({
       });
     }
 
-  },
+  },  
+/*   onShow: function() {
+
+    //获取用户的登录信息
+      let userInfo = wx.getStorageSync('userinfo');
+      this.setData({
+        userInfo: userInfo
+      });
+    }, */
   onHide: function() {
     // 页面隐藏
 
