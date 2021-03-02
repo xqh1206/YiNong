@@ -138,4 +138,15 @@ Page({
       }
     })
   },
+  //跳转到商品分类
+  gocatalog2:function(){
+    wx.reLaunch({
+      url: '/pages/catalog2/catalog2'
+    })
+  },
+  godetail:function(){
+    wx.navigateTo({
+      url: '/pages/detail/detail'
+    })
+  }
 })

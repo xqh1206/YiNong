@@ -30,29 +30,29 @@
   </swiper>
 
   <navigator class="e">
-    <navigator url="" class="i">
-      <view url="">
+    <navigator class="i" >
+      <view bindtap="gocatalog2">
         <image class="b1" src="../../static/images/A.jpg"></image>
         <view class="a">种子</view>
       </view>
     </navigator>
     <navigator></navigator>
     <navigator url="" class="i">
-      <view url="">
+      <view bindtap="gocatalog2">
         <image class="b1" src="/static/images/C.jpg"></image>
         <view class="a">化肥</view>
       </view>
     </navigator>
 
     <navigator url="" class="i">
-      <view url="">
+      <view bindtap="gocatalog2">
         <image class="b1" src="/static/images/B.jpg"></image>
         <view class="a"> 农药</view>
       </view>
     </navigator>
 
     <navigator url="" class="i">
-      <view url="">
+      <view bindtap="gocatalog2">
         <image class="b1" src="/static/images/D.jpeg"></image>
         <view class="a">农机具</view>
       </view>
@@ -65,7 +65,7 @@
   <navigator class="a6">
     <image class="a5" src="/static/images/a.png"></image>
   </navigator>
-  <navigator class="ab">
+  <navigator class="ab" bindtap="godetail">
     <view ><image class="ac" src="/static/images/1.jpg"></image></view>
 <text class="ad" decode="{{true}}">\n&nbsp;&nbsp;万盛68</text>
 <text class="ae" decode="{{true}}">\n \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高产大田玉米种籽/抗旱\n</text>
