@@ -1,13 +1,13 @@
 <view class="goods">
   <scroll-view class="menu-wrapper" scroll-y scroll-into-view="{{toView}}">
     <view wx:for="{{goods}}" wx:for-item="item" wx:for-index="idx" bindtap="scrollToMenu" data-current="{{idx}}"
-      id="menu-{{idx}}" class="li {{currentIndex==idx?'active':''}}">
+      id="menu-{{idx}}" class="li {{currentIndex==idx?'active':''}}" >
       {{item.name}}
     </view>
   </scroll-view>
   <view class="foods-wrapper">
     <scroll-view style="height:100%;width:100%;" scroll-y bindscroll="scrollFoods" scroll-top="{{scrollTop}}">
-      <view wx:for="{{goods}}" wx:for-item="item" class="food-list-hook" url="../detail/detail">
+      <view wx:for="{{goods}}" wx:for-item="item" class="food-list-hook" bindtap="godetail">
         <text class="cate">{{item.name}}</text>
         <view class="food-item" wx:for="{{item.foods}}" wx:for-item="itemFoods">
           <view class="icon" style="background-image:url({{itemFoods.icon}})"></view>
@@ -16,8 +16,7 @@
             <view class="desc">{{itemFoods.info}}</view>
             <view class="desc">特价{{itemFoods.sellCount}}<text>24H发货{{itemFoods.rating}}</text></view>
             <view class="price">
-              ¥{{itemFoods.price}}<image  class="b2"src="/static/images/a2.jpg">
-  </image><view class="price_add"> </view>
+              ¥{{itemFoods.price}}<view class="price_add"></view>
             </view>
           </view>
         </view>
