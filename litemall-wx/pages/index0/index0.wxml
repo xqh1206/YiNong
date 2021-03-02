@@ -1,9 +1,9 @@
 <!--pages/index.wxml-->
-<text>\n</text>
+<!-- <text>\n</text>
 <navigator class="yi" url="">
   <image src="/static/images/8.png">
   </image>
-</navigator>
+</navigator> -->
 <navigator class="yi" url=""></navigator>
 <navigator>
   <view><text class="ti" decode="{{true}}">
@@ -12,19 +12,18 @@
   <text>\n</text>
 </navigator>
 <navigator class="e">
-  <navigator url="/pages/index/index" class="i">
-    <view url="">
-      <image src="/static/images/9.png">
-      </image>
+  <navigator url="" class="f">
+    <view class="farmer" bindtap='go'>
+      <image src="/static/images/9.png"></image>
     </view>
   </navigator>
   <navigator url="" class="i">
-    <view url="">
+    <view bindtap="show">
       <image src="/static/images/10.png"></image>
     </view>
   </navigator>
 </navigator>
-<navigator>
+<navigator bindtap="show">
   <image class="a" src="/static/images/11.png"></image>
 </navigator>
 
