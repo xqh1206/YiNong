@@ -23,13 +23,12 @@ Page({
     // 页面关闭
 
   },
-  wxLogin: function(e) {
+/*    wxLogin: function(e) {
     if (e.detail.userInfo == undefined) {
       app.globalData.hasLogin = false;
       util.showErrorToast('微信登录失败');
       return;
     }
-
     user.checkLogin().catch(() => {
 
       user.loginByWeixin(e.detail.userInfo).then(res => {
@@ -44,6 +43,17 @@ Page({
       });
 
     });
+  },  */
+  wxLogin: function(e) {
+    console.log(e);
+    if(e.detail.userInfo){
+      const {userInfo}=e.detail;
+      wx.setStorageSync('userinfo', userInfo);
+      app.globalData.hasLogin = true;
+      wx.navigateBack({
+        delta: 1
+      })
+    }
   },
   accountLogin: function() {
     wx.navigateTo({
