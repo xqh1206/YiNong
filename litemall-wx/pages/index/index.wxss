@@ -547,3 +547,13 @@
 .a4{font-size: smaller;color: rgb(114, 119, 106);}
 .a5{height :130rpx;}
 .a6{background: #fff;}
+.ab{
+height: 150px;background: #fff;}
+.ac{float: right;
+width: 150px;
+height: 150px;
+padding: 30rpx ;}
+.ad{font-size: large;}
+.ae{color: rgb(102, 93, 93);}
+.af{color: rgb(238, 18, 18);font-size: large;
+}
