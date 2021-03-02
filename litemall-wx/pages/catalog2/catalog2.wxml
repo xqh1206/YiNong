@@ -16,7 +16,8 @@
             <view class="desc">{{itemFoods.info}}</view>
             <view class="desc">特价{{itemFoods.sellCount}}<text>24H发货{{itemFoods.rating}}</text></view>
             <view class="price">
-              ¥{{itemFoods.price}}<view class="price_add"></view>
+              ¥{{itemFoods.price}}<image  class="b2"src="/static/images/a2.jpg">
+  </image><view class="price_add"> </view>
             </view>
           </view>
         </view>
