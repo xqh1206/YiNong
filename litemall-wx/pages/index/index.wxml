@@ -63,8 +63,7 @@
   </navigator>
 
 <navigator class="a6">
-  <view class="a5">──臻选·优质产品──
-</view>
+  <image class="a5" src="/static/images/a.png"></image>
 </navigator>
   <navigator class="a1">
     <navigator url="" class="a2">
