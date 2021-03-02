@@ -67,7 +67,7 @@ Page({
             
             "info": "英国进口草莓黄瓜西瓜水溶肥料",
       
-            "icon": "/static/images/2.jpg",
+            "icon": "/static/images/3.jpg",
           },
           {
             "name": "化肥",
@@ -75,7 +75,7 @@ Page({
             
             "info": "英国进口草莓黄瓜西瓜水溶肥料",
       
-            "icon": "/static/images/2.jpg",
+            "icon": "/static/images/3.jpg",
           },
           {
             "name": "化肥",
@@ -83,7 +83,7 @@ Page({
             
             "info": "英国进口草莓黄瓜西瓜水溶肥料",
       
-            "icon": "/static/images/2.jpg",
+            "icon": "/static/images/3.jpg",
           },
           {
             "name": "化肥",
@@ -91,7 +91,7 @@ Page({
             
             "info": "英国进口草莓黄瓜西瓜水溶肥料",
       
-            "icon": "/static/images/2.jpg",
+            "icon": "/static/images/3.jpg",
           },
          
         ]
@@ -103,35 +103,35 @@ Page({
           "name": "农药",
           "price": "23",           
           "info": "杀虫剂杀虫剂农药",
-          "icon": "/static/images/3.jpg",
+          "icon": "/static/images/2.jpg",
           "url":"/pages/detail/detail"
         },
         {
           "name": "农药",
           "price": "23",           
           "info": "杀虫剂杀虫剂农药",
-          "icon": "/static/images/3.jpg",
+          "icon": "/static/images/2.jpg",
           "url":"/pages/detail/detail"
         },
         {
           "name": "农药",
           "price": "23",           
           "info": "杀虫剂杀虫剂农药",
-          "icon": "/static/images/3.jpg",
+          "icon": "/static/images/2.jpg",
           "url":"/pages/detail/detail"
         },
         {
           "name": "农药",
           "price": "23",           
           "info": "杀虫剂杀虫剂农药",
-          "icon": "/static/images/3.jpg",
+          "icon": "/static/images/2.jpg",
           "url":"/pages/detail/detail"
         },
         {
           "name": "农药",
           "price": "23",           
           "info": "杀虫剂杀虫剂农药",
-          "icon": "/static/images/3.jpg",
+          "icon": "/static/images/2.jpg",
           "url":"/pages/detail/detail"
         },
          
@@ -244,5 +244,10 @@ Page({
         foodListHeights: _foodListHeights
       });
     }) 
-  }
+  },
+  godetail: function() {
+    wx.navigateTo({
+      url: '/pages/detail/detail',
+    });
+}
 })

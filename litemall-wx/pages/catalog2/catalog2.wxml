@@ -7,7 +7,7 @@
   </scroll-view>
   <view class="foods-wrapper">
     <scroll-view style="height:100%;width:100%;" scroll-y bindscroll="scrollFoods" scroll-top="{{scrollTop}}">
-      <view wx:for="{{goods}}" wx:for-item="item" class="food-list-hook" url="../detail/detail">
+      <view wx:for="{{goods}}" wx:for-item="item" class="food-list-hook" bindtap="godetail">
         <text class="cate">{{item.name}}</text>
         <view class="food-item" wx:for="{{item.foods}}" wx:for-item="itemFoods">
           <view class="icon" style="background-image:url({{itemFoods.icon}})"></view>
