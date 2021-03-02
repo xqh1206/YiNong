@@ -1,6 +1,7 @@
 /* pages/index.wxss */
 .yi image{width: 180rpx;height: 150rpx;}
 .ti {font-weight: 600;font-size: x-large;}
+.f image{width: 370rpx;height: 400rpx;}
 .i image{width: 370rpx;height: 400rpx;}
 .e{display: flex;}
 .a{width: 740rpx;height: 350rpx;}
